@@ -46,3 +46,11 @@ node 5002:3000
 BD
 --bd ---> bd-qa
 postgresql 5003:5432
+
+//comandos nuevos:
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+terraform workspace new dev
+terraform workspace new qa
