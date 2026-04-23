@@ -1,9 +1,9 @@
 #Start a container
 resource "docker_container" "web" {
-  name  = "web-dev"
-  image = "lab/api"
+  name  = "web-${terraform.workspace}"
+  image = "lab/web"
   ports {
-    internal = "3000"
-    external = "4002"
+    internal = "80"
+    external = var.web_port[terraform.workspace]
   }
 }
