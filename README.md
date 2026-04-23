@@ -54,3 +54,44 @@ terraform apply
 terraform destroy
 terraform workspace new dev
 terraform workspace new qa
+
+
+```         
+cd src/api
+```
+
+```
+docker build -t lab/api .
+```
+
+```
+cd ..
+```
+
+```
+cd ..
+```
+
+```
+cd iac
+```
+
+```
+terraform init
+```
+
+```
+terraform workspace new DEV
+```
+
+```
+terraform aply
+```
+
+```
+terraform workspace new QA
+```
+
+```
+terraform aply
+```
