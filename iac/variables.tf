@@ -1,2 +1,2 @@
 variable "api_port" {}
-variavle "web_port" {}
+variable "web_port" {}
